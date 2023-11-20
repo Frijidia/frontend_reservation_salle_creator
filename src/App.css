@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #3c47df, #e3ecec, 48%, #3c83df);
+}
+
+.autho-form-container, .login-form, .register-form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin: 20 auto;
+  padding: 50px;
+  border: 5px solid #545aaf;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+ 
+.submit-form{
+  text-align: center;
+  /* background-color: #7a62cf; */
+  color: #f5eded;
+  padding: 15px;
+  border:none;
+  border-radius: 15px;
+  cursor: pointer;
+  max-width:max-content;
+  margin-top: 50px;
+}
+/* .login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 25px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+} */
+/* 
+h2 {
+  text-align: center;
+  text-decoration:underline;
+  text-transform:inherit;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+p {
+  text-align: center; 
+}
+input {
+  text-align: left;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}
+
+button {
+  text-align: center;
+  background-color: #3039b3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 400px;
+} */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #61dafb; /* Changement de couleur au survol */
+}
